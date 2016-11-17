@@ -1,0 +1,424 @@
+2016/11/17-17:00:25
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=E5119EDE9C1B41E41B434711D749818D; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 133
+Date: Thu, 17 Nov 2016 16:00:25 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 3,
+  "results" : [ ],
+  "allResults" : 0,
+  "startFrom" : 0,
+  "nRecords" : 0
+}
+
+
+
+2016/11/17-17:00:36
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=8368329E5386C8D5765618B219D85ABC; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 133
+Date: Thu, 17 Nov 2016 16:00:36 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 4,
+  "results" : [ ],
+  "allResults" : 0,
+  "startFrom" : 0,
+  "nRecords" : 0
+}
+
+
+
+2016/11/17-17:03:52
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=B13E7F227705A814E1E91F6C8BB6D8D6; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 133
+Date: Thu, 17 Nov 2016 16:03:52 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 3,
+  "results" : [ ],
+  "allResults" : 0,
+  "startFrom" : 0,
+  "nRecords" : 0
+}
+
+
+
+2016/11/17-17:05:21
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=F4DE9C922D284FA02751C59E92803610; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 1390
+Date: Thu, 17 Nov 2016 16:05:21 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 43,
+  "results" : [ {
+    "campaignId" : 1,
+    "idx" : "1",
+    "cclId" : "18",
+    "cl" : {
+      "sys_dt_creazione" : "2016-11-17 15:07:21",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "",
+      "sys_user_modifica" : "-",
+      "listId" : 2,
+      "name" : "123",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  }, {
+    "campaignId" : 1,
+    "idx" : "2",
+    "cclId" : "19",
+    "cl" : {
+      "sys_dt_creazione" : "2016-11-17 15:07:24",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "",
+      "sys_user_modifica" : "-",
+      "listId" : 3,
+      "name" : "asd",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  }, {
+    "campaignId" : 1,
+    "idx" : "3",
+    "cclId" : "20",
+    "cl" : {
+      "sys_dt_creazione" : "2016-01-21 14:46:42",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "2016-11-17 17:01:25",
+      "sys_user_modifica" : "Demo Admin",
+      "listId" : 1,
+      "name" : "testList",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  } ],
+  "allResults" : 3,
+  "startFrom" : 0,
+  "nRecords" : 3
+}
+
+
+
+2016/11/17-17:05:21
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=E02DBF502A94A05D0DB3617B23AC860C; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 981
+Date: Thu, 17 Nov 2016 16:05:21 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 6,
+  "results" : [ {
+    "campaignId" : 1,
+    "idx" : "1",
+    "cclId" : "18",
+    "cl" : {
+      "sys_dt_creazione" : "2016-11-17 15:07:21",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "",
+      "sys_user_modifica" : "-",
+      "listId" : 2,
+      "name" : "123",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  }, {
+    "campaignId" : 1,
+    "idx" : "2",
+    "cclId" : "20",
+    "cl" : {
+      "sys_dt_creazione" : "2016-01-21 14:46:42",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "2016-11-17 17:01:25",
+      "sys_user_modifica" : "Demo Admin",
+      "listId" : 1,
+      "name" : "testList",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  } ],
+  "allResults" : 2,
+  "startFrom" : 0,
+  "nRecords" : 2
+}
+
+
+
+2016/11/17-17:05:21
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=9F5A7BAC264C4E2B6E8F92C6DD383C19; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 981
+Date: Thu, 17 Nov 2016 16:05:21 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 6,
+  "results" : [ {
+    "campaignId" : 1,
+    "idx" : "1",
+    "cclId" : "18",
+    "cl" : {
+      "sys_dt_creazione" : "2016-11-17 15:07:21",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "",
+      "sys_user_modifica" : "-",
+      "listId" : 2,
+      "name" : "123",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  }, {
+    "campaignId" : 1,
+    "idx" : "2",
+    "cclId" : "20",
+    "cl" : {
+      "sys_dt_creazione" : "2016-01-21 14:46:42",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "2016-11-17 17:01:25",
+      "sys_user_modifica" : "Demo Admin",
+      "listId" : 1,
+      "name" : "testList",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  } ],
+  "allResults" : 2,
+  "startFrom" : 0,
+  "nRecords" : 2
+}
+
+
+
+2016/11/17-17:05:21
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=E1B1B688376F9FCF0D41A038539FC83F; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 981
+Date: Thu, 17 Nov 2016 16:05:21 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 7,
+  "results" : [ {
+    "campaignId" : 1,
+    "idx" : "1",
+    "cclId" : "18",
+    "cl" : {
+      "sys_dt_creazione" : "2016-11-17 15:07:21",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "",
+      "sys_user_modifica" : "-",
+      "listId" : 2,
+      "name" : "123",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  }, {
+    "campaignId" : 1,
+    "idx" : "2",
+    "cclId" : "20",
+    "cl" : {
+      "sys_dt_creazione" : "2016-01-21 14:46:42",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "2016-11-17 17:01:25",
+      "sys_user_modifica" : "Demo Admin",
+      "listId" : 1,
+      "name" : "testList",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  } ],
+  "allResults" : 2,
+  "startFrom" : 0,
+  "nRecords" : 2
+}
+
+
+
+2016/11/17-17:10:06
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=38CABA54B0AB0EF0C26404C180D42992; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 982
+Date: Thu, 17 Nov 2016 16:10:06 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 10,
+  "results" : [ {
+    "campaignId" : 2,
+    "idx" : "1",
+    "cclId" : "22",
+    "cl" : {
+      "sys_dt_creazione" : "2016-11-17 15:07:24",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "",
+      "sys_user_modifica" : "-",
+      "listId" : 3,
+      "name" : "asd",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  }, {
+    "campaignId" : 2,
+    "idx" : "2",
+    "cclId" : "23",
+    "cl" : {
+      "sys_dt_creazione" : "2016-01-21 14:46:42",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "2016-11-17 17:01:25",
+      "sys_user_modifica" : "Demo Admin",
+      "listId" : 1,
+      "name" : "testList",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  } ],
+  "allResults" : 2,
+  "startFrom" : 0,
+  "nRecords" : 2
+}
+
+
+
+2016/11/17-17:10:06
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=D10ED3453D48A5AF2E119F6654924CAA; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 573
+Date: Thu, 17 Nov 2016 16:10:06 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 6,
+  "results" : [ {
+    "campaignId" : 2,
+    "idx" : "1",
+    "cclId" : "23",
+    "cl" : {
+      "sys_dt_creazione" : "2016-01-21 14:46:42",
+      "sys_user_creazione" : "Demo Admin",
+      "sys_dt_modifica" : "2016-11-17 17:01:25",
+      "sys_user_modifica" : "Demo Admin",
+      "listId" : 1,
+      "name" : "testList",
+      "isHidden" : false,
+      "securityKey" : ""
+    },
+    "complete" : false,
+    "highwater" : "",
+    "clType" : "CALL_LIST"
+  } ],
+  "allResults" : 1,
+  "startFrom" : 0,
+  "nRecords" : 1
+}
+
+
+
+2016/11/17-17:10:06
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=95639855C3CD413748633CE5A63DAA8A; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 133
+Date: Thu, 17 Nov 2016 16:10:06 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 5,
+  "results" : [ ],
+  "allResults" : 0,
+  "startFrom" : 0,
+  "nRecords" : 0
+}
+
+
+
+2016/11/17-17:10:06
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=E258EDCEC898620392192332D9DA733F; Path=/wombat
+Content-Type: application/json;charset=UTF-8
+Content-Length: 133
+Date: Thu, 17 Nov 2016 16:10:06 GMT
+
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 4,
+  "results" : [ ],
+  "allResults" : 0,
+  "startFrom" : 0,
+  "nRecords" : 0
+}
+
+
+
