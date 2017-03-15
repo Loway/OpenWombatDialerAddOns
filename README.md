@@ -9,6 +9,16 @@ A set of examples and additional tools for WombatDialer
 
 A script to easily remove lists from campaigns, can also remove all lists at once.
 
+### Clones and runs a campaign adding a list
+
+A sample script that shows how to:
+
+* clone an existing campaign
+* create a new list
+* add the new list tothe just-cloned campaign
+* run the new campaign
+
+
 ## Scripts
 
 ### AutoRecall

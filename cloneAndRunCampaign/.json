@@ -1,0 +1,47 @@
+{
+  "status" : "OK",
+  "error" : "",
+  "timeMs" : 13,
+  "results" : [ {
+    "sys_dt_creazione" : "2017-03-15 11:39:04",
+    "sys_user_creazione" : "-",
+    "sys_dt_modifica" : "2017-03-15 11:39:04",
+    "sys_user_modifica" : "-",
+    "campaignId" : 9,
+    "name" : "pippo-51587",
+    "priority" : 10,
+    "pace" : "RUNNABLE",
+    "dial_timeout" : 30000,
+    "dial_clid" : "",
+    "dial_account" : "",
+    "dial_pres" : "",
+    "addlLogging" : "QM_COMPATIBLE",
+    "pauseWhenFinished" : 1,
+    "timeStartHr" : "000000",
+    "timeEndHr" : "235959",
+    "timeDow" : "1234567",
+    "maxCallLength" : 0,
+    "batchSize" : 100,
+    "httpNotify" : "",
+    "loggingAlias" : "T1",
+    "securityKey" : "",
+    "autopause" : false,
+    "agentClid" : "",
+    "emailAddresses" : "",
+    "emailEvents" : "NO",
+    "initialBoostFactor" : 1.0,
+    "initialPredictiveModel" : "OFF",
+    "amdTracking" : "OFF",
+    "amdParams" : "",
+    "amdAudioFile" : "",
+    "amdFaxFile" : "",
+    "campaignVars" : "",
+    "loggingQmVars" : ""
+  } ],
+  "allResults" : 1,
+  "startFrom" : 0,
+  "nRecords" : 1
+}
+
+
+
