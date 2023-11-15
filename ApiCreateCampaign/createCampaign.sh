@@ -2,33 +2,52 @@
 
 # Creates a campaign on WombatDialer.
 #
-# It expects an existing Trunk and an EndPoint
+# This file is meant as an example of how to create campaigns and associate
+# all the reelevant features so they are completely built obver the API.
+#
+# It expects a pre-existing Trunk and an EndPoint, that the campaign will 
+# use.
+#
+# It also expects two lists - one to be set as a normal list, the other as
+# a blacklist. Of course you are free to add more, or not add them at all.
+#
 
+# API Access - edit as proper
 
 WOMBAT=http://127.0.0.1:8080/wombat
 AUTH="--user demoadmin:demo"
 
+# trunk and EP to use
+
 TRUNK=tk
 ENDPOINT=ph
-
-LIST=BF2
+LIST=MYLIST
 BLKLIST=BLK
 
+# the name of our new campaign
 CAMPAIGN=ABCD
 
 
-
-# GET
+#
+# Some tooling
+#
 
 CURLPOST="curl ${AUTH}  -X POST "
-CURLDATA="curl -s ${AUTH} -H 'Content-Type: text/json; charset=utf-8' "
+CURLDATA="curl -s ${AUTH}  -X POST "
 
 
 function title() {
 	echo
-	echo ===========================
-	echo $1
-	echo ===========================
+	echo ==============================
+	echo ==  $1
+	echo ==============================
+}
+
+function bye() {
+	echo 
+	echo ERROR: $1
+	echo
+	exit 1
 }
 
 
@@ -40,7 +59,7 @@ function title() {
 title "Finding existing resources"
 
 echo -n "Searching for trunk: ${TRUNK}"
-TRUNKID=$($CURLDATA -X POST "${WOMBAT}/api/edit/trunk/?mode=L&query=${TRUNK}" | jq '.results[0].trunkId')
+TRUNKID=$($CURLDATA "${WOMBAT}/api/edit/trunk/?mode=L&query=${TRUNK}" | jq '.results[0].trunkId')
 echo "  ... found with id: ${TRUNKID}"
 
 
@@ -58,6 +77,12 @@ echo -n "Searching for list: ${BLKLIST}"
 BLKLISTID=$($CURLDATA -X POST "${WOMBAT}/api/edit/list/?mode=L&query=${BLKLIST}" | jq '.results[0].listId')
 echo "  ... found with id: ${BLKLISTID}"
 
+# Check that they are all set
+
+[ "${TRUNKID}" = "null" ] && bye "No trunk"
+[ "${EPID}" = "null" ] && bye "No EP"
+[ "${LISTID}" = "null" ] && bye "No List"
+[ "${BLKLISTID}" = "null" ] && bye "No blacklist"
 
 
 
@@ -108,8 +133,10 @@ $CURLPOST "${WOMBAT}/api/edit/campaign/?mode=E" \
 EOF
 
 
-CAMPAIGNID=$($CURLDATA -X POST "${WOMBAT}/api/edit/campaign/?mode=L&query=${CAMPAIGN}" | jq '.results[0].campaignId')
+CAMPAIGNID=$($CURLDATA "${WOMBAT}/api/edit/campaign/?mode=L&query=${CAMPAIGN}" | jq '.results[0].campaignId')
 echo "New campaign ${CAMPAIGN} has id: ${CAMPAIGNID}"
+
+[ "${CAMPAIGNID}" = "null" ] && bye "Could not find the new campaign"
 
 
 # Add reschedule rules
