@@ -15,7 +15,7 @@ A set of scripts that show how to:
 
 They are meant to be used as examples, so were written to be easuily readable.
 
-### [Clones and runs a campaign](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/CloneAndRunCampaign)
+### [Cloning and running an existing campaign](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/CloneAndRunCampaign)
 
 A sample script that implements a very common scenarion, that is:
 
@@ -24,7 +24,7 @@ A sample script that implements a very common scenarion, that is:
 * add the new list to the just-cloned campaign
 * run the new campaign
 
-### [Delete Lists From Campaigns](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/DeleteListFromCampaign)
+### [Deleting Lists From Campaigns](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/DeleteListFromCampaign)
 
 A script to easily remove lists from campaigns. It can also remove all lists at once.
 
@@ -38,14 +38,12 @@ Schedules recalls based on lost calls on a QueueMetrics queue.
 
 A shell script written in PHP.
 
-### (Cvs2Wbt)[https://github.com/Loway/OpenWombatDialerAddOns/tree/master/Csv2Wbt]
+### [Cvs2Wbt](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/Csv2Wbt)
 
 Convert a list of numbers and attributes stored as a simple CSV file to the format used by WombatDialer
 to upload call lists.
 
 A script written in Perl.
-
-
 
 ## See also
 
