@@ -48,7 +48,8 @@ A script written in Perl.
 ## See also
 
 * [WombatDialer home page](https://www.wombatdialer.com)
-* [Open QueueMetrics Add-Ons forum](http://forum.queuemetrics.com/index.php?board=14.0)
+* [The WombatDialer manual](https://docs.loway.ch/WombatDialer/)
+* [The WombatDialer blog](https://www.wombatdialer.com/blog/)
 
 ### Other projects you may be interested in
 
