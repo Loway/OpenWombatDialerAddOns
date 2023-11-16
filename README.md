@@ -4,7 +4,7 @@ A set of examples and additional tools for WombatDialer. You can contribute too 
 
 ## Examples
 
-### [Delete Lists From Campaigns](./tree/master/deleteListFromCampaign)
+### [Delete Lists From Campaigns](.../../tree/master/deleteListFromCampaign)
 
 
 
