@@ -1,11 +1,12 @@
-# OpenWombatDialerAddOns
-A set of examples and additional tools for WombatDialer
+# Open WombatDialer Add-Ons
+
+A set of examples and additional tools for WombatDialer. You can contribute too - just send us a PR!
 
 ## Examples
 
-### Delete Lists From Campaigns
+### [Delete Lists From Campaigns](./tree/master/deleteListFromCampaign)
 
-[Delete Lists From Campaigns](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/deleteListFromCampaign)
+
 
 A script to easily remove lists from campaigns, can also remove all lists at once.
 
