@@ -4,31 +4,41 @@ A set of examples and additional tools for WombatDialer. You can contribute too 
 
 ## Examples
 
-### [Delete Lists From Campaigns](.../../tree/master/deleteListFromCampaign)
+### [Using the JSON Configuration API](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/JSON_Configuration_API)
 
+A set of scripts that show how to:
 
+- create a new campaign from scratch, fully configuring all its options like you would do from the GUI
+- create a new list from scratch and upload numbers to it
+- dumping a JSON view of one campaign
+- dumping a JSON view of common objects as currently configured
 
-A script to easily remove lists from campaigns, can also remove all lists at once.
+They are meant to be used as examples, so were written to be easuily readable.
 
-### Clones and runs a campaign adding a list
+### [Clones and runs a campaign](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/CloneAndRunCampaign)
 
-A sample script that shows how to:
+A sample script that implements a very common scenarion, that is:
 
-* clone an existing campaign
+* clone an existing campaign as it is
 * create a new list
-* add the new list tothe just-cloned campaign
+* add the new list to the just-cloned campaign
 * run the new campaign
 
+### [Delete Lists From Campaigns](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/DeleteListFromCampaign)
 
-## Scripts
+A script to easily remove lists from campaigns. It can also remove all lists at once.
 
-### AutoRecall
+
+
+## Ready-made scripts
+
+### [AutoRecall](https://github.com/Loway/OpenWombatDialerAddOns/tree/master/AutoRecall)
 
 Schedules recalls based on lost calls on a QueueMetrics queue.
 
 A shell script written in PHP.
 
-### Cvs2Wbt
+### (Cvs2Wbt)[https://github.com/Loway/OpenWombatDialerAddOns/tree/master/Csv2Wbt]
 
 Convert a list of numbers and attributes stored as a simple CSV file to the format used by WombatDialer
 to upload call lists.
